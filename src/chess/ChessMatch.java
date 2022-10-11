@@ -30,8 +30,10 @@ public class ChessMatch {
 	
 	
 	public void initialSetUp() {
-		newPlacePiece('a', 8 ,new Rook(board, Color.BLACK));
+		newPlacePiece('a', 8, new Rook(board, Color.BLACK));
+		newPlacePiece('h', 8, new Rook(board, Color.BLACK));
 		newPlacePiece('a', 1, new Rook(board, Color.WHITE));
+		newPlacePiece('h', 1, new Rook(board, Color.WHITE));
 		newPlacePiece('e', 8, new King(board, Color.BLACK));
 		newPlacePiece('e', 1, new King(board, Color.WHITE));
 	}
