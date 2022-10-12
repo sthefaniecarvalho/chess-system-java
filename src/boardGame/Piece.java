@@ -13,10 +13,6 @@ public abstract class Piece {
 	protected Board getBoard() {
 		return board;
 	}
-
-	protected void setBoard(Board board) {
-		this.board = board;
-	}
 	
 	public abstract boolean[][] possibleMoves();
 	
